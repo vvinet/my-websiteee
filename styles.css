@@ -1,0 +1,564 @@
+*/
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Контейнер для выравнивания контента */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Шапка сайта */
+.header {
+    background: #1f2a34;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header .logo {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.header .nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.header .nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.header .nav ul li a {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+.header .nav ul li a:hover {
+    color: #ff5733;
+}
+
+/* Герой секция */
+.hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+    box-shadow: inset 0 0 150px rgba(0, 0, 0, 0.6);
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background: #ff5733;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #e44e1a;
+}
+
+/* Секции */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    font-weight: 700;
+    color: #333;
+}
+.reserve {
+  background: url('path-to-image.jpg') no-repeat center center/cover;
+  padding: 60px 0;
+  color: #000; /* Черный цвет текста по умолчанию для всей секции */
+  text-align: center;
+}
+
+.reserve-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.reserve h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: #000; /* Устанавливаем цвет заголовка в черный */
+}
+
+.reserve-info {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.reserve-item {
+  flex: 1;
+  min-width: 250px;
+  margin: 10px;
+}
+
+.reserve-item h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-decoration: underline;
+  color: #000; /* Черный цвет для подзаголовков */
+}
+
+.reserve-item p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #000; /* Черный цвет для текста в абзацах */
+}
+
+.reserve-button {
+  margin-top: 30px;
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white; /* Белый цвет текста на кнопке */
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.reserve-button:hover {
+  background-color: #45a049;
+}
+
+
+/* Секция мероприятий */
+.events {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.events h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+/* Карточки мероприятий */
+.event-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    text-align: left;
+}
+
+.event-card h3 {
+    font-size: 1.8rem;
+    color: #1f2a34;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.event-card p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.event-card .event-date {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff5733;
+}
+
+/* Эффект при наведении на карточку */
+.event-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Список мероприятий */
+.events ul {
+    list-style: none;
+    padding: 0;
+}
+
+.events li {
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    width: calc(33% - 20px);
+    vertical-align: top;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .events li {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .events li {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+
+/* Секции о заповеднике, маршруты и отзывы */
+.about, .routes, .reviews, .events {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    padding: 40px;
+}
+.reserve {
+  background: url('path-to-image.jpg') no-repeat center center/cover;
+  padding: 60px 0;
+  color: #fff;
+  text-align: center;
+}
+
+.reserve-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.reserve h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.reserve-info {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.reserve-item {
+  flex: 1;
+  min-width: 250px;
+  margin: 10px;
+}
+
+.reserve-item h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-decoration: underline;
+}
+
+.reserve-item p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.reserve-button {
+  margin-top: 30px;
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.reserve-button:hover {
+  background-color: #45a049;
+}
+
+/* Отзывы */
+.reviews {
+    background-color: #f7f7f7;
+    padding: 60px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.reviews h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+/* Карточки отзывов */
+.review-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+.review-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Стиль текста отзыва */
+.review-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+/* Информация о авторе отзыва */
+.review-author {
+    font-size: 1rem;
+    color: #888;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.review-avatar {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+}
+
+.author-name {
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px;
+}
+
+.author-location {
+    color: #777;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 768px) {
+    .review-card {
+        width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 480px) {
+    .review-card {
+        width: 100%;
+    }
+}
+
+
+/* Мобильная адаптация */
+@media (max-width: 768px) {
+    .review-card {
+        width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 480px) {
+    .review-card {
+        width: 100%;
+    }
+}
+
+
+.route-card {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    margin: 10px;
+    text-align: left;
+}
+
+.route-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.route-card p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+/* Галерея */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.05);
+}
+
+/* Социальные сети */
+.social-links {
+    margin-top: 30px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #1f2a34;
+    color: white;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: #ff5733;
+}
+
+/* Форма подписки */
+.subscribe form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.subscribe input[type="email"] {
+    padding: 15px;
+    font-size: 1.2rem;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    margin-right: 10px;
+    width: 300px;
+    transition: border-color 0.3s ease;
+}
+
+.subscribe input[type="email"]:focus {
+    border-color: #ff5733;
+}
+
+.subscribe button {
+    padding: 15px 30px;
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.subscribe button:hover {
+    background-color: #e44e1a;
+}
+
+/* Контактная форма */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 15px;
+    font-size: 1.2rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    border-color: #ff5733;
+}
+
+.contact-form button {
+    padding: 15px 30px;
+    background-color: #1f2a34;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #ff5733;
+}
+
+/* Подвал */
+.footer {
+    background: #1f2a34;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1rem;
+}
+
+.footer p {
+    margin: 0;
+}

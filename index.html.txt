@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заповедник Басеги</title>
+    <!-- Подключаем шрифт Bebas Neue -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Заповедник Басеги</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#about">О заповеднике</a></li>
+                    <li><a href="#routes">Маршруты</a></li>
+                    <li><a href="#gallery">Галерея</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                    <li><a href="#reviews">Отзывы</a></li>
+                    <li><a href="#events">Мероприятия</a></li>
+                    <li><a href="#subscribe">Подписка</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Погрузитесь в природу Урала</h2>
+            <p>Басеги — это место, где природа остается нетронутой, а путешественники открывают для себя мир тишины и красоты.</p>
+            <a href="#about" class="btn">Узнать больше</a>
+        </div>
+    </section>
+
+    <section class="reserve">
+  <div class="reserve-content">
+    <h2>О заповеднике</h2>
+    <p>Заповедник — это уникальный уголок природы, где охраняются редкие виды животных и растений. Он представляет собой не только природный комплекс, но и важную научную ценность.</p>
+    <div class="reserve-info">
+      <div class="reserve-item">
+        <h3>Флора</h3>
+        <p>Заповедник славится своим разнообразием флоры. Здесь можно встретить редкие виды растений, которые находятся под охраной.</p>
+      </div>
+      <div class="reserve-item">
+        <h3>Фауна</h3>
+        <p>В заповеднике обитают редкие виды животных, включая уникальных представителей местной фауны, которых можно встретить только здесь.</p>
+      </div>
+      <div class="reserve-item">
+        <h3>Экологический туризм</h3>
+        <p>Заповедник открыт для экологических туров, где посетители могут узнать больше о природных ценностях и поддержке сохранения природы.</p>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+
+    <section id="routes" class="routes">
+        <div class="container">
+            <h2>Маршруты и природа</h2>
+            <div class="route-card">
+                <h3>Маршрут 1: Лесная тропа</h3>
+                <p>Протяженность: 5 км, легкий уровень.</p>
+            </div>
+            <div class="route-card">
+                <h3>Маршрут 2: Горные вершины</h3>
+                <p>Протяженность: 12 км, средний уровень.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Галерея</h2>
+            <div class="gallery-grid">
+                <img src="photo1.jpg" alt="Пейзаж 1">
+                <img src="photo2.jpg" alt="Пейзаж 2">
+                <img src="photo3.jpg" alt="Пейзаж 3">
+            </div>
+        </div>
+    </section>
+
+   <section id="reviews" class="reviews">
+    <div class="container">
+        <h2>Отзывы наших посетителей</h2>
+        
+        <div class="review-card">
+            <img src="https://via.placeholder.com/100" alt="Анна и Дмитрий" class="review-avatar">
+            <p class="review-text">"Заповедник Басеги — это настоящая находка для любителей природы. Мы прошли по лесной тропе, и впечатления остались незабываемыми. Чистый воздух, дикая природа, а главное — тишина. Великолепное место для отдыха с детьми. Обязательно вернемся!"</p>
+            <div class="review-author">
+                <span class="author-name">Анна и Дмитрий</span>
+                <span class="author-location">Москва</span>
+            </div>
+        </div>
+
+        <div class="review-card">
+            <img src="https://via.placeholder.com/100" alt="Игорь" class="review-avatar">
+            <p class="review-text">"Потрясающий опыт! Мы с коллегами из Екатеринбурга решили провести выходные в Басегах. Природа невероятная, а маршруты разнообразные. Особенно понравилась экскурсия с гидом, которая открыла много интересных фактов о местной флоре и фауне. Рекомендую всем!"</p>
+            <div class="review-author">
+                <span class="author-name">Игорь</span>
+                <span class="author-location">Екатеринбург</span>
+            </div>
+        </div>
+
+        <div class="review-card">
+            <img src="https://via.placeholder.com/100" alt="Мария" class="review-avatar">
+            <p class="review-text">"Я приехала в Басеги с друзьями для активного отдыха. Восхищена тем, как тщательно подготовлены маршруты, и насколько приятно было быть вдали от городской суеты. Для меня это было не только физическое, но и душевное восстановление. Очень рекомендуем!"</p>
+            <div class="review-author">
+                <span class="author-name">Мария</span>
+                <span class="author-location">Пермь</span>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+
+    <section id="events" class="events">
+    <div class="container">
+        <h2>Сезонные мероприятия</h2>
+        <div class="event-card">
+            <h3>Экологическая экскурсия</h3>
+            <p>Прогулка по лесной тропе с экспертом, где вы узнаете об экосистеме Басегов.</p>
+            <span class="event-date">15 декабря 2024 г.</span>
+        </div>
+        <div class="event-card">
+            <h3>Фестиваль природы</h3>
+            <p>Праздничные мероприятия, мастер-классы и выступления. Присоединяйтесь к нам!</p>
+            <span class="event-date">20-21 января 2025 г.</span>
+        </div>
+        <div class="event-card">
+            <h3>Пикник на природе</h3>
+            <p>Воссоздание атмосферы лесного пикника с культурной программой.</p>
+            <span class="event-date">5 марта 2025 г.</span>
+        </div>
+    </div>
+</section>
+
+
+    <section id="subscribe" class="subscribe">
+        <div class="container">
+            <h2>Подпишитесь на новости заповедника</h2>
+            <form action="https://example.com/subscribe" method="post">
+                <label for="email">Введите ваш Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Подписаться</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Контакты</h2>
+            <p>Адрес: 618276 Пермский край, г. Гремячинск, ул. Ленина,100</p>
+            <p>Телефон: +7 (000) 123-45-67</p>
+            <p>Email: info@basegi.ru</p>
+            <h3>Как нас найти:</h3>
+            <iframe
+              src="https://yandex.ru/map-widget/v1/?ll=58.452859%2C58.854565&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxODI0NDEyNzMxEnzQoNC-0YHRgdC40Y8sINCf0LXRgNC80YHQutC40Lkg0LrRgNCw0LksINCT0L7RgdGD0LTQsNGA0YHRgtCy0LXQvdC90YvQuSDQn9GA0LjRgNC-0LTQvdGL0Lkg0LfQsNC_0L7QstC10LTQvdC40Log0JHQsNGB0LXQs9C4IgoNiN9pQhUBbmtC&z=10.64"
+              width="100%"
+              height="450"
+              frameborder="0">
+            </iframe>
+            <div class="social-links">
+                <h3>Мы в социальных сетях:</h3>
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+                <a href="https://vk.com" target="_blank">VK</a>
+            </div>
+            <form action="https://example.com/submit" method="post" class="contact-form">
+                <h3>Свяжитесь с нами:</h3>
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Ваш Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Заповедник Басеги. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
